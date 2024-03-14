@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <link rel="stylesheet" href="enquanto.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+
+ <h1> Frase Repetida </h1>
+ <div id="frase"></div>
+
+  <script>
+
+     const frase = "Não incomodar na aula.";
+     let resultado = "";
+     let contador = 0;
+
+     while(contador <= 19) {
+        resultado += `<p> ${frase}</p>`;
+        contador++;
+     }
+
+       document.getElementById("frase").innerHTML = resultado;
+
+  </script>
+    
+</body>
+</html>

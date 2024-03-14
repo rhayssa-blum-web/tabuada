@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: font1;
+    src: url(fonte/the_golden_pussy/The\ Golden\ Pussy.ttf);
+}
+
+body{
+    background-image: url(https://www.riarteemagia.com.br/site/images/banner1.png);
+    background-repeat: no-repeat;
+    
+}
+
+div{
+    text-align: center;
+    font-size: 25px;
+    font-family: font1;
+    color: chocolate;
+    
+
+}
+
+table{
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    background-color: rgb(122, 197, 219);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(107, 138, 77);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkcyan;
+}
+
+
+ input{
+    font-size: 20px;
+    
+ }
+
+ footer{
+
+position: fixed;
+top: 97%;
+left: 45%;
+color: chocolate;
+width: 20%;
+font-size: 20px;
+font-family: font1;
+ }
